@@ -161,6 +161,19 @@ export const Footer: React.FC = () => {
             </div>
           </div>
 
+          {/* SEO Keywords section for Google Search México */}
+          <div className="pt-8 mt-8 border-t border-emerald-950/80 text-xs text-gray-400">
+            <div className="bg-[#07130b]/60 border border-emerald-900/30 rounded-xl p-4 sm:p-5">
+              <div className="flex items-center gap-2 mb-2 text-[#d4af37] font-semibold text-xs tracking-wider uppercase">
+                <Sparkles className="w-3.5 h-3.5 text-[#d4af37]" />
+                <span>Búsquedas frecuentes en México (SEO)</span>
+              </div>
+              <p className="leading-relaxed text-[11px] text-gray-400">
+                <strong className="text-gray-300">Perfumería Árabe en México:</strong> Perfumes árabes originales en México • Al Rehab México oficial • Comprar perfumes árabes Al Rehab • Al Rehab Choco Musk México • Aceite perfumado árabe roll-on • Perfumes en aceite concentrado 5ml y 6ml sin alcohol • Al Rehab Golden Sand • Al Rehab Lord Blue • Al Rehab Soft • Al Rehab Dalal • Al Rehab Silver • Attar árabe tradicional • Perfumes árabes duraderos para hombre y mujer • Envíos a Ciudad de México (CDMX), Guadalajara, Monterrey, Puebla, Oaxaca, Querétaro, Veracruz, Mérida, Tijuana, León, Cancún y toda la República Mexicana.
+              </p>
+            </div>
+          </div>
+
           {/* Bottom copyright line */}
           <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left text-xs text-gray-400">
             <div>
