@@ -176,9 +176,6 @@ export const Footer: React.FC = () => {
               <p>
                 © {new Date().getFullYear()} <strong className="text-white">MARRMEX Perfumes Árabes</strong>. Todos los derechos reservados. Perfumes árabes originales en México.
               </p>
-              <p className="text-[11px] text-gray-400 mt-1">
-                Al Rehab es una marca registrada de sus respectivos dueños. MARRMEX Perfumes Árabes distribuye productos 100% auténticos con fotos oficiales de www.alrehab.com.
-              </p>
             </div>
             <div className="flex items-center gap-3 flex-shrink-0">
               <a
