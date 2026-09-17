@@ -217,7 +217,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSearch }) => {
                 className="w-full py-2.5 px-4 bg-[#1877F2]/20 hover:bg-[#1877F2]/30 border border-[#1877F2]/50 text-[#bfdbfe] font-bold text-xs rounded-lg flex items-center justify-center gap-2 transition-colors shadow-sm"
               >
                 <Facebook className="w-4 h-4 text-[#60a5fa] fill-current" />
-                <span>Síguenos en Facebook</span>
+                <span>Facebook</span>
               </a>
 
               <p className="text-[11px] text-center text-gray-400">

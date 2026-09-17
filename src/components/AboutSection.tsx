@@ -100,7 +100,7 @@ export const AboutSection: React.FC = () => {
                 className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-[#1877F2]/20 hover:bg-[#1877F2]/30 border border-[#1877F2]/50 text-[#bfdbfe] hover:text-white text-sm font-bold transition-all flex items-center justify-center gap-2 text-center shadow-md"
               >
                 <Facebook className="w-4 h-4 text-[#60a5fa] fill-current" />
-                <span>Facebook Oficial</span>
+                <span>Facebook</span>
               </a>
 
               <a
