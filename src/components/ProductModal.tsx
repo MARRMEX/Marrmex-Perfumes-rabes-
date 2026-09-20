@@ -59,12 +59,9 @@ export const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) 
               className="w-full h-full object-cover rounded-xl border border-[#1b261e] shadow-xl max-h-[380px]"
               referrerPolicy="no-referrer"
             />
-            <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between pointer-events-none">
+            <div className="absolute bottom-6 left-6 flex items-center pointer-events-none">
               <span className="px-3 py-1 rounded-full text-xs font-semibold bg-[#070907]/90 backdrop-blur-sm border border-[#d4af37]/50 text-[#fceda7]">
                 {product.category} • {product.gender}
-              </span>
-              <span className="px-3 py-1 rounded-full text-xs font-bold bg-[#064e3b] border border-emerald-500/50 text-emerald-200">
-                Foto oficial www.alrehab.com
               </span>
             </div>
           </div>

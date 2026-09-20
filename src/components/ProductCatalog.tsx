@@ -141,11 +141,6 @@ export const ProductCatalog = forwardRef<HTMLDivElement, ProductCatalogProps>(
               <Check className="w-3 h-3 text-[#d4af37]" />
               <span>Precio: <strong className="text-white">$180 MXN c/u</strong></span>
             </div>
-
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-[#131b15] border border-emerald-500/40 text-emerald-300 font-semibold">
-              <Check className="w-3 h-3 text-emerald-400" />
-              <span>Fotos oficiales: <strong className="text-white">www.alrehab.com</strong></span>
-            </div>
           </div>
 
           {/* Dynamic Filters & Sort row */}
