@@ -1,7 +1,7 @@
 import React from 'react';
 import { Phone, ShieldCheck, MapPin, Sparkles, Droplets, Facebook } from 'lucide-react';
 import { BUSINESS_CONFIG } from '../data/products';
-import logoImg from '../assets/images/marrmex_logo_emblem_1789590014841.jpg';
+import logoImg from '../assets/images/marrmex_official_logo_1789927674144.jpg';
 
 export const AboutSection: React.FC = () => {
   return (

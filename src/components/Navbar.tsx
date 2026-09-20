@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ShoppingBag, Search, Menu, X, Sparkles, Phone, Facebook } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { BUSINESS_CONFIG } from '../data/products';
-import logoImg from '../assets/images/marrmex_logo_emblem_1789590014841.jpg';
+import logoImg from '../assets/images/marrmex_official_logo_1789927674144.jpg';
 
 interface NavbarProps {
   onOpenSearch: () => void;

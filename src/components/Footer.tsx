@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MessageSquare, MapPin, Phone, Mail, ShieldCheck, Heart, Sparkles, X, Facebook } from 'lucide-react';
 import { BUSINESS_CONFIG } from '../data/products';
-import logoImg from '../assets/images/marrmex_logo_emblem_1789590014841.jpg';
+import logoImg from '../assets/images/marrmex_official_logo_1789927674144.jpg';
 
 export const Footer: React.FC = () => {
   const [activeModal, setActiveModal] = useState<'privacy' | 'terms' | null>(null);
