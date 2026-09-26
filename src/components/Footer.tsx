@@ -165,7 +165,7 @@ export const Footer: React.FC = () => {
           <div className="pt-8 mt-8 border-t border-emerald-950/80 text-xs text-gray-400">
             <div className="bg-[#07130b]/60 border border-emerald-900/30 rounded-xl p-4 sm:p-5">
               <p className="leading-relaxed text-[11px] text-gray-400">
-                <strong className="text-[#d4af37]">Perfumería Árabe en México:</strong> Perfumes árabes originales en México • Comprar perfumes árabes online en México • Perfumes Árabes en Oaxaca • Perfumes Árabes en Puebla • Perfumes árabes de larga duración • Perfumes árabes para mujer • Perfumes árabes para hombre • Al Rehab perfumes originales en México • Perfumes Árabes Para mujeres en México • Tienda de perfumes árabes En México.
+                <strong className="text-[#d4af37]">MARRMEX Perfumes Árabes:</strong> Perfumería árabe original en México • Comprar perfumes árabes online en México • Envíos a todo México • Perfumes árabes en Oaxaca • Perfumes árabes en Puebla • Perfumes árabes en Huajuapan de León • Perfumes árabes de larga duración • Perfumes árabes para mujer en México • Perfumes árabes para hombre en México • Al Rehab perfumes originales en México • Aceites de perfume concentrados y attars • Tienda de perfumes árabes en México.
               </p>
             </div>
           </div>
