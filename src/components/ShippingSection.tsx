@@ -59,21 +59,21 @@ export const ShippingSection: React.FC = () => {
             </div>
 
             <div className="inline-block px-2.5 py-1 rounded-full text-[11px] font-bold bg-[#1d1a0e] text-[#f5e7b8] border border-[#d4af37]/30 mb-3">
-              Cobertura Nacional
+              Puebla, Oaxaca & México
             </div>
 
             <h3 className="font-display font-bold text-lg text-white mb-2">
-              Envíos a todo México
+              Envíos Rápidos a Puebla y Oaxaca
             </h3>
 
             <p className="text-xs sm:text-sm text-[#cbd5e1] leading-relaxed mb-4">
-              Entregas a domicilio en los 32 estados de la República Mexicana a través de las paqueterías líderes (FedEx, DHL, Estafeta, Redpack).
+              Rutas prioritarias y despachos diarios hacia Puebla y Oaxaca (24-48 hrs hábiles), además de cobertura a domicilio en los 32 estados de la República Mexicana con FedEx, DHL y Estafeta.
             </p>
 
             <ul className="text-xs text-gray-300 space-y-1.5 pt-3 border-t border-[#1b261e]">
               <li className="flex items-center gap-2">
                 <CheckCircle className="w-3.5 h-3.5 text-[#d4af37]" />
-                <span>Tiempo de entrega estimado de 2 a 5 días hábiles</span>
+                <span>Envíos rápidos a Puebla, Oaxaca y Huajuapan de León</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle className="w-3.5 h-3.5 text-[#d4af37]" />
