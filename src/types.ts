@@ -3,7 +3,7 @@ export interface Product {
   name: string;
   brand: string; // "Al Rehab"
   presentation: string; // "5 ml"
-  price: number; // 180 MXN
+  price: number; // 249 MXN
   category: 'Gourmand' | 'Floral' | 'Fresco' | 'Oriental' | 'Amaderado' | 'Musk';
   gender: 'Unisex' | 'Caballero' | 'Dama';
   description: string;

@@ -93,7 +93,7 @@ export const ProductCatalog = forwardRef<HTMLDivElement, ProductCatalogProps>(
             Catálogo de Perfumes Árabes (5 ml)
           </h2>
           <p className="text-sm sm:text-base text-[#cbd5e1] leading-relaxed">
-            Explora nuestros aceites de perfume concentrados originales. Todos con presentación práctica de <strong className="text-white">5 ml</strong> a precio uniforme de <strong className="text-emerald-400">$180 MXN</strong>.
+            Explora nuestros aceites de perfume concentrados originales. Todos con presentación práctica de <strong className="text-white">5 ml</strong> a precio uniforme de <strong className="text-emerald-400">$249 MXN</strong>.
           </p>
         </div>
 
@@ -120,7 +120,7 @@ export const ProductCatalog = forwardRef<HTMLDivElement, ProductCatalogProps>(
             )}
           </div>
 
-          {/* Fixed Attributes Chips Bar (Requirements: Marca Al Rehab, Presentación 5 ml, Precio $180 MXN) */}
+          {/* Fixed Attributes Chips Bar (Requirements: Marca Al Rehab, Presentación 5 ml, Precio $249 MXN) */}
           <div className="flex flex-wrap items-center gap-2 pb-4 mb-4 border-b border-[#1b261e] text-xs">
             <span className="text-gray-300 font-medium flex items-center gap-1.5 mr-1">
               <SlidersHorizontal className="w-3.5 h-3.5 text-[#d4af37]" />
@@ -139,7 +139,7 @@ export const ProductCatalog = forwardRef<HTMLDivElement, ProductCatalogProps>(
 
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-[#131b15] border border-[#d4af37]/40 text-[#fceda7] font-semibold">
               <Check className="w-3 h-3 text-[#d4af37]" />
-              <span>Precio: <strong className="text-white">$180 MXN c/u</strong></span>
+              <span>Precio: <strong className="text-white">$249 MXN c/u</strong></span>
             </div>
           </div>
 
@@ -192,7 +192,7 @@ export const ProductCatalog = forwardRef<HTMLDivElement, ProductCatalogProps>(
                 >
                   <option value="popular">Más populares</option>
                   <option value="name-asc">Nombre (A - Z)</option>
-                  <option value="price-asc">Precio ($180 MXN)</option>
+                  <option value="price-asc">Precio ($249 MXN)</option>
                 </select>
               </div>
             </div>

@@ -240,7 +240,7 @@ export const Footer: React.FC = () => {
             </h3>
             <div className="text-xs text-[#cbd5e1] space-y-3 leading-relaxed">
               <p>
-                <strong>1. Originalidad:</strong> Todos los productos ofrecidos en MARRMEX Perfumes Árabes son 100% originales de la marca Al Rehab en presentación de 5 ml a precio oficial de $180 MXN. MARRMEX Perfumes Árabes no es fabricante de fragancias.
+                <strong>1. Originalidad:</strong> Todos los productos ofrecidos en MARRMEX Perfumes Árabes son 100% originales de la marca Al Rehab en presentación de 5 ml a precio oficial de $249 MXN. MARRMEX Perfumes Árabes no es fabricante de fragancias.
               </p>
               <p>
                 <strong>2. Proceso de compra:</strong> La página genera un pedido formal que se envía por WhatsApp. El pedido se considera en firme una vez que nuestro equipo valida la disponibilidad en bodega, calcula el flete (o aplica envío gratis si supera $1,500 MXN) y el cliente confirma el pago acordado.

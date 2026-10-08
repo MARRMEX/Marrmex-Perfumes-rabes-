@@ -69,7 +69,7 @@ export const AlRehabSection: React.FC = () => {
         <div className="p-6 rounded-2xl bg-[#0d140f] border border-[#d4af37]/50 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
           <div className="max-w-xl">
             <h4 className="font-display font-bold text-lg text-white mb-1">
-              Todos los modelos al mismo precio accesible: <span className="text-[#fceda7]">$180 MXN</span>
+              Todos los modelos al mismo precio accesible: <span className="text-[#fceda7]">$249 MXN</span>
             </h4>
             <p className="text-xs text-[#cbd5e1] leading-relaxed">
               En MARRMEX Perfumes Árabes mantenemos un precio uniforme y transparente para que puedas experimentar múltiples familias olfativas sin complicaciones.

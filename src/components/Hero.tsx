@@ -40,7 +40,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-[#e2e8f0] max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed mb-8">
-              Descubre la esencia de <strong className="text-white">Al Rehab</strong> y encuentra tu nueva fragancia favorita. Presentación práctica de <strong className="text-[#fceda7]">5 ml</strong> a tan solo <strong className="text-emerald-400">$180 MXN</strong>, con fijación legendaria y aromas envolventes.
+              Descubre la esencia de <strong className="text-white">Al Rehab</strong> y encuentra tu nueva fragancia favorita. Presentación práctica de <strong className="text-[#fceda7]">5 ml</strong> a tan solo <strong className="text-emerald-400">$249 MXN</strong>, con fijación legendaria y aromas envolventes.
             </p>
 
             {/* Buttons: Gold and Emerald */}
@@ -59,7 +59,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
                 onClick={onExploreCatalog}
                 className="w-full sm:w-auto px-7 py-4 rounded-xl bg-[#064e3b] border border-emerald-500/50 hover:bg-[#047857] text-white font-bold text-sm tracking-wide transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md shadow-emerald-950/40"
               >
-                <span>Ver catálogo ($180 MXN)</span>
+                <span>Ver catálogo ($249 MXN)</span>
               </button>
             </div>
 
@@ -95,7 +95,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
                   <div className="text-right">
                     <span className="text-[10px] text-gray-300 block">Precio único</span>
                     <span className="font-display font-extrabold text-[#f5e7b8] text-sm sm:text-base">
-                      $180 MXN
+                      $249 MXN
                     </span>
                   </div>
                 </div>

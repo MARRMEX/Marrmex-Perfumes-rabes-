@@ -107,7 +107,7 @@ export const AboutSection: React.FC = () => {
                 href="#catalogo"
                 className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-[#064e3b] border border-emerald-500/50 hover:bg-[#047857] text-white text-sm font-bold transition-colors text-center shadow-md shadow-emerald-950/40"
               >
-                Ver catálogo ($180 MXN)
+                Ver catálogo ($249 MXN)
               </a>
             </div>
           </div>
