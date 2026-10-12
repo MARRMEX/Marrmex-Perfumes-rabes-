@@ -28,22 +28,19 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
             <div className="inline-flex items-center justify-center lg:justify-start">
               <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-[#0d140f] border border-[#d4af37]/50 text-white tracking-wide mb-5 shadow-sm">
                 <Sparkles className="w-3.5 h-3.5 text-[#d4af37]" />
-                <span className="text-white">Perfumería Árabe Original • <strong className="text-[#fceda7]">Oaxaca México</strong></span>
+                <span className="text-white">Perfumería Árabe • <strong className="text-[#fceda7]">Oaxaca México</strong></span>
               </span>
             </div>
 
             {/* Main Title */}
             <h1 className="font-display font-extrabold text-3xl sm:text-5xl lg:text-5xl xl:text-6xl text-white tracking-tight leading-[1.15] mb-5">
               Perfumes Árabes Originales <br className="hidden sm:inline" />
-              <span className="gold-gradient-text">En Oaxaca México</span>
-              <span className="block text-xl sm:text-2xl lg:text-3xl font-bold text-[#fceda7] mt-3 tracking-normal">
-                Envíos Rápidos
-              </span>
+              <span className="gold-gradient-text">En Oaxaca y México</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-[#e2e8f0] max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed mb-8">
-              Descubre la esencia auténtica de <strong className="text-white">Al Rehab</strong> con entregas rápidas en Oaxaca México, Huajuapan de León y todo el país. Presentación roll-on de <strong className="text-[#fceda7]">5 ml</strong> a tan solo <strong className="text-emerald-400">$249 MXN</strong>, con fijación legendaria y aromas envolventes.
+              <strong className="text-white">Perfumes Árabes Originales en Oaxaca y Huajuapan de León.</strong> Perfumes Árabes Al Rehab En México , Aromas intensos de larga duración. <strong className="text-[#fceda7]">Envíos Rápidos .</strong>
             </p>
 
             {/* Buttons: Gold and Emerald */}
