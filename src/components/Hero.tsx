@@ -40,7 +40,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-[#e2e8f0] max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed mb-8">
-              <strong className="text-white">Perfumes Árabes Originales en Oaxaca y Huajuapan de León.</strong> Perfumes Árabes Al Rehab En México , Aromas intensos de larga duración. <strong className="text-[#fceda7]">Envíos Rápidos .</strong>
+              <strong className="text-white">Perfumes Árabes en Oaxaca y Huajuapan de León.</strong> Perfumes Árabes Al Rehab En México , Aromas intensos de larga duración. <strong className="text-[#fceda7]">Envíos Rápidos .</strong>
             </p>
 
             {/* Buttons: Gold and Emerald */}
