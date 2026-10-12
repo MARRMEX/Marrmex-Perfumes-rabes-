@@ -109,7 +109,7 @@ export const CartDrawer: React.FC = () => {
                 Tu carrito está vacío
               </h3>
               <p className="text-xs text-[#cbd5e1] max-w-xs mx-auto mb-6">
-                Descubre nuestros perfumes árabes Al Rehab de 5 ml y agrega tus fragancias favoritas.
+                Descubre nuestros perfumes árabes Al Rehab de 6 ml y agrega tus fragancias favoritas.
               </p>
               <button
                 onClick={() => setIsCartOpen(false)}

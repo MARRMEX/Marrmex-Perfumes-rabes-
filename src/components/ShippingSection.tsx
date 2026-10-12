@@ -98,7 +98,7 @@ export const ShippingSection: React.FC = () => {
             </h3>
 
             <p className="text-xs sm:text-sm text-[#cbd5e1] leading-relaxed mb-4">
-              Protección acolchada multicapa especial para frascos de vidrio y viales de 5 ml, garantizando que lleguen impecables a tus manos.
+              Protección acolchada multicapa especial para frascos de vidrio y viales de 6 ml, garantizando que lleguen impecables a tus manos.
             </p>
 
             <ul className="text-xs text-gray-300 space-y-1.5 pt-3 border-t border-[#1b261e]">

@@ -10,7 +10,7 @@ export const AlRehabSection: React.FC = () => {
     },
     {
       icon: Compass,
-      title: 'Práctico Formato Roll-On 5 ml',
+      title: 'Práctico Formato Roll-On 6 ml',
       desc: 'Tamaño ideal para llevar en el bolsillo, bolso o automóvil. Su aplicador de balín de acero dosifica la cantidad exacta sin derrames.',
     },
     {

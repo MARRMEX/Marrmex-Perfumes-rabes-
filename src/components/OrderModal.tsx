@@ -32,7 +32,7 @@ export const OrderModal: React.FC = () => {
 
       if (!initialInfo && cart.length > 0) {
         const productList = cart
-          .map((item) => `${item.quantity}x ${item.product.name} (5 ml)`)
+          .map((item) => `${item.quantity}x ${item.product.name} (6 ml)`)
           .join(', ');
         initialInfo = `Perfumes seleccionados: ${productList}. Favor de coordinar envío.`;
       }
@@ -59,7 +59,7 @@ export const OrderModal: React.FC = () => {
     }
 
     if (!form.cantidad || form.cantidad < 1) {
-      errs.cantidad = 'La cantidad mínima es 1 frasco de 5 ml.';
+      errs.cantidad = 'La cantidad mínima es 1 frasco de 6 ml.';
     }
 
     if (!form.informacionPedido.trim() || form.informacionPedido.trim().length < 5) {
@@ -86,14 +86,14 @@ export const OrderModal: React.FC = () => {
       `🌟 *NUEVO PEDIDO — MARRMEX PERFUMES ÁRABES* 🌟`,
       ``,
       `👤 *Nombre:* ${form.nombre.trim()}`,
-      `📦 *Cantidad:* ${form.cantidad} frasco(s) de 5 ml`,
+      `📦 *Cantidad:* ${form.cantidad} frasco(s) de 6 ml`,
       `💰 *Total estimado:* $${computedTotal} MXN ($${currentPricePerUnit} MXN c/u)`,
       `🚚 *Envío:* ${isFreeShip ? '¡GRATIS! (Supera los $1,500 MXN)' : 'A coordinar por paquetería express'}`,
       ``,
       `📝 *INFORMACIÓN DEL PEDIDO:*`,
       `${form.informacionPedido.trim()}`,
       ``,
-      `📍 *Tienda:* MARRMEX Perfumes Árabes (Al Rehab 5 ml)`,
+      `📍 *Tienda:* MARRMEX Perfumes Árabes (Al Rehab 6 ml)`,
       `Hola, deseo confirmar la disponibilidad de mi pedido y recibir los datos para el pago y despacho. ¡Gracias!`
     ];
 
@@ -184,7 +184,7 @@ export const OrderModal: React.FC = () => {
           {/* Campo 2: Cantidad */}
           <div>
             <label htmlFor="order-cantidad-input" className="block text-xs font-bold uppercase tracking-wider text-[#d4af37] mb-2">
-              Cantidad de Perfumes (5 ml) <span className="text-red-400">*</span>
+              Cantidad de Perfumes (6 ml) <span className="text-red-400">*</span>
             </label>
             <div className="flex items-center gap-3">
               <div className="flex items-center border border-[#1b261e] bg-[#111813] rounded-xl overflow-hidden">

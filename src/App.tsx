@@ -4,7 +4,6 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { TrustSection } from './components/TrustSection';
 import { ProductCatalog } from './components/ProductCatalog';
-import { AlRehabSection } from './components/AlRehabSection';
 import { ArabianHeritageSection } from './components/ArabianHeritageSection';
 import { ShippingSection } from './components/ShippingSection';
 import { PaymentGuide } from './components/PaymentGuide';
@@ -58,8 +57,6 @@ const MainApp: React.FC = () => {
           setSearchQuery={setSearchQuery}
         />
 
-        {/* Por qué elegir Al Rehab */}
-        <AlRehabSection />
 
         {/* Fotos de lugares árabes e inspiración */}
         <ArabianHeritageSection />

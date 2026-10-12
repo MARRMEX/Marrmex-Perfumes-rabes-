@@ -92,7 +92,7 @@ export const ArabianHeritageSection: React.FC = () => {
 
                   <div className="pt-4 mt-4 border-t border-[#1b261e] flex items-center justify-between text-xs text-[#d4af37]">
                     <span className="font-semibold tracking-wider uppercase text-[11px]">100% Tradición Árabe</span>
-                    <span className="text-emerald-400 font-bold">5 ml Roll-on</span>
+                    <span className="text-emerald-400 font-bold">6 ml Roll-on</span>
                   </div>
                 </div>
               </div>

@@ -45,7 +45,7 @@ export const AboutSection: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-2 text-gray-300">
                   <Droplets className="w-4 h-4 text-emerald-400" />
-                  <span className="text-white">Concentrados roll-on de 5 ml de larga duración</span>
+                  <span className="text-white">Concentrados roll-on de 6 ml de larga duración</span>
                 </div>
                 <div className="flex items-center gap-2 text-gray-300">
                   <Sparkles className="w-4 h-4 text-[#d4af37]" />
@@ -69,7 +69,7 @@ export const AboutSection: React.FC = () => {
             {/* Mandatory Exact Body Copy */}
             <div className="space-y-4 text-sm sm:text-base text-[#cbd5e1] leading-relaxed mb-8">
               <p>
-                Somos una tienda mexicana especializada en perfumes árabes originales <strong className="text-white">Al Rehab</strong>, ofreciendo fragancias en presentación concentrada roll-on de <strong className="text-[#fceda7]">5 ml</strong> para quienes buscan descubrir diferentes aromas exquisitos y llevarlos fácilmente a cualquier lugar.
+                Somos una tienda mexicana especializada en perfumes árabes originales <strong className="text-white">Al Rehab</strong>, ofreciendo fragancias en presentación concentrada roll-on de <strong className="text-[#fceda7]">6 ml</strong> para quienes buscan descubrir diferentes aromas exquisitos y llevarlos fácilmente a cualquier lugar.
               </p>
               <p>
                 Despachamos cada pedido desde nuestra bodega en <strong className="text-white">Huajuapan de León, Oaxaca</strong>, con envíos rápidos, protegidos y seguros a todo México.

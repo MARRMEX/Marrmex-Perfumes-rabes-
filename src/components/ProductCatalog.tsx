@@ -90,10 +90,10 @@ export const ProductCatalog = forwardRef<HTMLDivElement, ProductCatalogProps>(
             <span>Colección Completa Al Rehab</span>
           </div>
           <h2 className="font-display font-bold text-2xl sm:text-4xl text-white tracking-tight mb-3">
-            Catálogo de Perfumes Árabes (5 ml)
+            Catálogo de Perfumes Árabes (6 ml)
           </h2>
           <p className="text-sm sm:text-base text-[#cbd5e1] leading-relaxed">
-            Explora nuestros aceites de perfume concentrados originales. Todos con presentación práctica de <strong className="text-white">5 ml</strong> a precio uniforme de <strong className="text-emerald-400">$249 MXN</strong>.
+            Explora nuestros aceites de perfume concentrados originales. Todos con presentación práctica de <strong className="text-white">6 ml</strong> a precio uniforme de <strong className="text-emerald-400">$249 MXN</strong>.
           </p>
         </div>
 
@@ -120,7 +120,7 @@ export const ProductCatalog = forwardRef<HTMLDivElement, ProductCatalogProps>(
             )}
           </div>
 
-          {/* Fixed Attributes Chips Bar (Requirements: Marca Al Rehab, Presentación 5 ml, Precio $249 MXN) */}
+          {/* Fixed Attributes Chips Bar (Requirements: Marca Al Rehab, Presentación 6 ml, Precio $249 MXN) */}
           <div className="flex flex-wrap items-center gap-2 pb-4 mb-4 border-b border-[#1b261e] text-xs">
             <span className="text-gray-300 font-medium flex items-center gap-1.5 mr-1">
               <SlidersHorizontal className="w-3.5 h-3.5 text-[#d4af37]" />
@@ -134,7 +134,7 @@ export const ProductCatalog = forwardRef<HTMLDivElement, ProductCatalogProps>(
 
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-[#131b15] border border-[#d4af37]/40 text-[#fceda7] font-semibold">
               <Check className="w-3 h-3 text-[#d4af37]" />
-              <span>Presentación: <strong className="text-white">5 ml</strong></span>
+              <span>Presentación: <strong className="text-white">6 ml</strong></span>
             </div>
 
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-[#131b15] border border-[#d4af37]/40 text-[#fceda7] font-semibold">

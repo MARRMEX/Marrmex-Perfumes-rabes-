@@ -8,7 +8,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
   const benefits = [
-    { text: '100% Originales Al Rehab (5 ml)', icon: ShieldCheck },
+    { text: '100% Originales Al Rehab (6 ml)', icon: ShieldCheck },
     { text: 'Envíos rápidos a todo México', icon: Truck },
     { text: 'Empaque seguro y protegido', icon: CheckCircle2 },
     { text: 'Atención personalizada por WhatsApp', icon: MessageCircle },

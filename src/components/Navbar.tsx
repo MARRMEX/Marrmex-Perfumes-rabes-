@@ -15,7 +15,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSearch }) => {
   const navLinks = [
     { label: 'Inicio', href: '#inicio' },
     { label: 'Perfumes', href: '#catalogo' },
-    { label: 'Al Rehab', href: '#al-rehab' },
     { label: 'Envíos', href: '#envios' },
     { label: 'Nosotros', href: '#nosotros' },
     { label: 'Contacto', href: '#contacto' },

@@ -5,9 +5,9 @@ export const TrustSection: React.FC = () => {
   const trustItems = [
     {
       title: 'Solo Al Rehab original',
-      description: 'Productos 100% auténticos de la marca árabe Al Rehab en presentación única de 5 ml roll-on. No réplicas ni imitaciones.',
+      description: 'Productos 100% auténticos de la marca árabe Al Rehab en presentación única de 6 ml roll-on. No réplicas ni imitaciones.',
       icon: Award,
-      badge: 'Al Rehab 5 ml',
+      badge: 'Al Rehab 6 ml',
     },
     {
       title: 'Envíos a todo México',
@@ -17,7 +17,7 @@ export const TrustSection: React.FC = () => {
     },
     {
       title: 'Empaque protegido',
-      description: 'Embalaje acolchado especial para frascos de 5 ml y entrega de número de guía oficial para rastrear tu paquete.',
+      description: 'Embalaje acolchado especial para frascos de 6 ml y entrega de número de guía oficial para rastrear tu paquete.',
       icon: Clock,
       badge: 'Guía de Rastreo',
     },
