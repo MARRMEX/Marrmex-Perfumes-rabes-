@@ -34,8 +34,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
 
             {/* Main Title */}
             <h1 className="font-display font-extrabold text-3xl sm:text-5xl lg:text-5xl xl:text-6xl text-white tracking-tight leading-[1.15] mb-5">
-              Perfumes Árabes Originales <br className="hidden sm:inline" />
-              <span className="gold-gradient-text">En Oaxaca y México</span>
+              Perfumes Árabes <br className="hidden sm:inline" />
+              <span className="gold-gradient-text">En Oaxaca y Puebla</span>
             </h1>
 
             {/* Subtitle */}
