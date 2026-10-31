@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
               <div className="pt-2 flex flex-col sm:flex-row gap-2.5">
                 <a
                   id="footer-whatsapp-btn"
-                  href={`https://wa.me/${BUSINESS_CONFIG.phone}?text=${encodeURIComponent('Hola MARRMEX Perfumes Árabes, me comunico desde la tienda online.')}`}
+                  href={`https://wa.me/${BUSINESS_CONFIG.phone}?text=${encodeURIComponent('Hola MARRMEX Perfumes Árabes, deseo consultar sobre sus perfumes Árabes .')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-[#064e3b]/40 hover:bg-[#064e3b]/70 border border-emerald-500/40 text-emerald-300 font-bold text-xs transition-colors shadow-sm"

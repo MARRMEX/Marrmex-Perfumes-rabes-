@@ -108,7 +108,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSearch }) => {
             {/* Direct WhatsApp Contact */}
             <a
               id="navbar-whatsapp-direct"
-              href={`https://wa.me/${BUSINESS_CONFIG.phone}?text=${encodeURIComponent('Hola MARRMEX Perfumes Árabes, tengo una consulta sobre sus perfumes Al Rehab.')}`}
+              href={`https://wa.me/${BUSINESS_CONFIG.phone}?text=${encodeURIComponent('Hola MARRMEX Perfumes Árabes, deseo consultar sobre sus perfumes Árabes .')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-full border border-emerald-500/50 bg-[#064e3b]/50 text-white hover:bg-[#064e3b] transition-colors shadow-sm"
@@ -200,7 +200,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSearch }) => {
 
             <div className="pt-6 border-t border-[#1b261e] flex flex-col gap-3">
               <a
-                href={`https://wa.me/${BUSINESS_CONFIG.phone}?text=${encodeURIComponent('Hola MARRMEX Perfumes Árabes, quiero información sobre sus perfumes Al Rehab.')}`}
+                href={`https://wa.me/${BUSINESS_CONFIG.phone}?text=${encodeURIComponent('Hola MARRMEX Perfumes Árabes, deseo consultar sobre sus perfumes Árabes .')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-2.5 px-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-lg flex items-center justify-center gap-2 transition-colors shadow-md"

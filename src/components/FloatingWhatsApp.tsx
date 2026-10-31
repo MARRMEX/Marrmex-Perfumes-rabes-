@@ -15,7 +15,7 @@ export const FloatingWhatsApp: React.FC = () => {
       >
         <a
           id="floating-whatsapp-btn"
-          href={`https://wa.me/${BUSINESS_CONFIG.phone}?text=${encodeURIComponent('Hola MARRMEX Perfumes Árabes, deseo consultar sobre sus perfumes Al Rehab.')}`}
+          href={`https://wa.me/${BUSINESS_CONFIG.phone}?text=${encodeURIComponent('Hola MARRMEX Perfumes Árabes, deseo consultar sobre sus perfumes Árabes .')}`}
           target="_blank"
           rel="noopener noreferrer"
           className="group flex items-center gap-2.5 px-4 py-3 bg-[#25D366] hover:bg-[#20ba59] active:scale-95 text-black font-bold text-xs sm:text-sm rounded-full shadow-2xl shadow-[#25D366]/40 transition-all cursor-pointer"
