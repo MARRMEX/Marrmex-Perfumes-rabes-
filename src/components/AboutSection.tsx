@@ -74,9 +74,6 @@ export const AboutSection: React.FC = () => {
               <p>
                 Despachamos cada pedido desde nuestra bodega en <strong className="text-white">Huajuapan de León, Oaxaca</strong>, con envíos rápidos, protegidos y seguros a todo México.
               </p>
-              <p className="text-xs sm:text-sm text-gray-400 italic pt-2 border-t border-[#1b261e]">
-                Nota de autenticidad: MARRMEX Perfumes Árabes no es fabricante de perfumes. Todos nuestros productos provienen directamente de la reconocida casa perfumera árabe <strong className="text-white">Al Rehab</strong>, garantizando su fórmula original concentrada y libre de adulteraciones.
-              </p>
             </div>
 
             {/* Action Buttons */}
