@@ -48,7 +48,7 @@ export const OrderModal: React.FC = () => {
   if (!isOrderModalOpen) return null;
 
   const currentPricePerUnit = BUSINESS_CONFIG.singlePrice;
-  const computedTotal = form.cantidad * currentPricePerUnit;
+  const computedTotal = cart.length > 0 ? subtotal : form.cantidad * currentPricePerUnit;
   const isFreeShip = computedTotal >= BUSINESS_CONFIG.freeShippingThreshold;
 
   const validate = () => {
@@ -59,7 +59,7 @@ export const OrderModal: React.FC = () => {
     }
 
     if (!form.cantidad || form.cantidad < 1) {
-      errs.cantidad = 'La cantidad mínima es 1 frasco de 6 ml.';
+      errs.cantidad = 'La cantidad mínima es 1.';
     }
 
     if (!form.informacionPedido.trim() || form.informacionPedido.trim().length < 5) {
@@ -86,14 +86,14 @@ export const OrderModal: React.FC = () => {
       `🌟 *NUEVO PEDIDO — MARRMEX PERFUMES ÁRABES* 🌟`,
       ``,
       `👤 *Nombre:* ${form.nombre.trim()}`,
-      `📦 *Cantidad:* ${form.cantidad} frasco(s) de 6 ml`,
-      `💰 *Total estimado:* $${computedTotal} MXN ($${currentPricePerUnit} MXN c/u)`,
+      `📦 *Items:* ${cart.length > 0 ? cart.map(i => `${i.quantity}x ${i.product.name} ($${i.product.price} MXN c/u)`).join(', ') : `${form.cantidad} frasco(s) ($${currentPricePerUnit} MXN c/u)`}`,
+      `💰 *Total estimado:* $${computedTotal} MXN`,
       `🚚 *Envío:* ${isFreeShip ? '¡GRATIS! (Supera los $1,500 MXN)' : 'A coordinar por paquetería express'}`,
       ``,
       `📝 *INFORMACIÓN DEL PEDIDO:*`,
       `${form.informacionPedido.trim()}`,
       ``,
-      `📍 *Tienda:* MARRMEX Perfumes Árabes (Al Rehab 6 ml)`,
+      `📍 *Tienda:* MARRMEX Perfumes Árabes (Al Rehab México)`,
       `Hola, deseo confirmar la disponibilidad de mi pedido y recibir los datos para el pago y despacho. ¡Gracias!`
     ];
 

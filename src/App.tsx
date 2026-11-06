@@ -3,6 +3,7 @@ import { CartProvider, useCart } from './context/CartContext';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { TrustSection } from './components/TrustSection';
+import { ArabicPackSection } from './components/ArabicPackSection';
 import { ProductCatalog } from './components/ProductCatalog';
 import { ArabianHeritageSection } from './components/ArabianHeritageSection';
 import { ShippingSection } from './components/ShippingSection';
@@ -48,6 +49,9 @@ const MainApp: React.FC = () => {
 
         {/* Compra con confianza */}
         <TrustSection />
+
+        {/* Pack "Experiencia Árabe" 3 Perfumes Al Rehab 6ml */}
+        <ArabicPackSection />
 
         {/* Product Catalog */}
         <ProductCatalog

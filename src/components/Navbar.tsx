@@ -14,7 +14,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSearch }) => {
 
   const navLinks = [
     { label: 'Inicio', href: '#inicio' },
-    { label: 'Perfumes', href: '#catalogo' },
+    { label: 'Pack 3x ($549)', href: '#pack-experiencia-arabe', isPromo: true },
+    { label: 'Perfumes ($199)', href: '#catalogo' },
     { label: 'Envíos', href: '#envios' },
     { label: 'Nosotros', href: '#nosotros' },
     { label: 'Contacto', href: '#contacto' },
@@ -85,7 +86,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSearch }) => {
               <button
                 key={link.label}
                 onClick={() => handleNavClick(link.href)}
-                className="text-sm font-medium text-[#e2e8f0] hover:text-[#d4af37] transition-colors tracking-wide relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#d4af37] hover:after:w-full after:transition-all after:duration-200"
+                className={
+                  (link as any).isPromo
+                    ? "px-3 py-1 rounded-full text-xs font-extrabold bg-[#d4af37]/20 border border-[#d4af37] text-[#fceda7] hover:bg-[#d4af37] hover:text-black transition-all shadow-sm"
+                    : "text-sm font-medium text-[#e2e8f0] hover:text-[#d4af37] transition-colors tracking-wide relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#d4af37] hover:after:w-full after:transition-all after:duration-200"
+                }
               >
                 {link.label}
               </button>
@@ -190,9 +195,18 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSearch }) => {
                   <button
                     key={link.label}
                     onClick={() => handleNavClick(link.href)}
-                    className="text-left py-2.5 px-3 rounded-lg text-sm font-medium text-white hover:text-[#d4af37] hover:bg-[#121a14] transition-colors"
+                    className={
+                      (link as any).isPromo
+                        ? "text-left py-2.5 px-3 rounded-lg text-sm font-bold bg-[#142217] text-[#fceda7] border border-[#d4af37]/40 flex items-center justify-between"
+                        : "text-left py-2.5 px-3 rounded-lg text-sm font-medium text-white hover:text-[#d4af37] hover:bg-[#121a14] transition-colors"
+                    }
                   >
-                    {link.label}
+                    <span>{link.label}</span>
+                    {(link as any).isPromo && (
+                      <span className="text-[10px] bg-[#d4af37] text-black px-2 py-0.5 rounded font-black uppercase">
+                        Ahorras $198
+                      </span>
+                    )}
                   </button>
                 ))}
               </div>

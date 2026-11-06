@@ -186,6 +186,24 @@ export const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) 
                   <span>Comprar ahora</span>
                 </button>
               </div>
+
+              {/* Pack Experiencia Árabe Upsell */}
+              <div className="mt-3.5 p-2.5 rounded-xl bg-[#121914] border border-[#d4af37]/30 flex items-center justify-between text-[11px]">
+                <span className="text-gray-300">
+                  ¿Buscas varios aromas? <strong className="text-[#fceda7]">Pack 3 perfumes por $549 MXN</strong> (Ahorras $198)
+                </span>
+                <button
+                  type="button"
+                  onClick={() => {
+                    onClose();
+                    const el = document.getElementById('pack-experiencia-arabe');
+                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="text-[#d4af37] hover:underline font-bold whitespace-nowrap ml-2 cursor-pointer"
+                >
+                  Ver pack →
+                </button>
+              </div>
             </div>
           </div>
         </div>

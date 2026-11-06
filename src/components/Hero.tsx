@@ -43,6 +43,22 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
               <strong className="text-white">Perfumes Árabes en Oaxaca y Huajuapan de León.</strong> Perfumes Al Rehab En México , Aromas intensos de larga duración. <strong className="text-[#fceda7]">Envíos a Todo México</strong>
             </p>
 
+            {/* Pack Experiencia Árabe Highlight Pill */}
+            <div className="flex justify-center lg:justify-start mb-6">
+              <a
+                href="#pack-experiencia-arabe"
+                className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-[#111913] border border-[#d4af37]/60 text-[#fceda7] hover:border-[#d4af37] hover:bg-[#16221a] transition-all shadow-md group"
+              >
+                <span className="px-2 py-0.5 rounded-full bg-[#d4af37] text-black font-black text-[10px] uppercase tracking-wider">
+                  OFERTA PACK
+                </span>
+                <span>Pack "Experiencia Árabe" (3 perfumes Al Rehab) por <strong>$549 MXN</strong></span>
+                <span className="text-emerald-400 font-extrabold text-[11px] bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-500/30">
+                  ¡Ahorras $198!
+                </span>
+              </a>
+            </div>
+
             {/* Buttons: Gold and Emerald */}
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5 sm:gap-4 mb-8">
               <button
@@ -59,7 +75,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
                 onClick={onExploreCatalog}
                 className="w-full sm:w-auto px-7 py-4 rounded-xl bg-[#064e3b] border border-emerald-500/50 hover:bg-[#047857] text-white font-bold text-sm tracking-wide transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md shadow-emerald-950/40"
               >
-                <span>Ver catálogo ($249 MXN)</span>
+                <span>Ver catálogo ($199 MXN)</span>
               </button>
             </div>
 
@@ -95,7 +111,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
                   <div className="text-right">
                     <span className="text-[10px] text-gray-300 block">Precio único</span>
                     <span className="font-display font-extrabold text-[#f5e7b8] text-sm sm:text-base">
-                      $249 MXN
+                      $199 MXN
                     </span>
                   </div>
                 </div>
